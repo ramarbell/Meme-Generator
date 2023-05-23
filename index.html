@@ -1,0 +1,43 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Random Meme Generator</title>
+
+    <script src="myscript.js"></script>
+  </head>
+
+  <body>
+    <main>
+      <section class="content">
+        <h2>Output</h2>
+        <div class="meme-container"><h3>Programmer memes</h3></div>
+
+        <div class="joke-container"><h3>Jokes</h3></div>
+
+        <div class="quote-container"><h3>Drop some wisdom</h3></div>
+
+        <div class="riddle-container"><h3>Riddle me this</h3></div>
+      </section>
+
+      <section class="sidebar">
+        <h2>Actions</h2>
+        <button onclick="showMeme()">Show a Meme</button>
+        <button onclick="showJoke()">Tell Me a Joke</button>
+        <button onclick="showQuote()">Random Quote</button>
+        <button onclick="showRiddle()">Riddle me</button>
+        <button class="reveal-btn" onclick="revealAnswers()">
+          Reveal Riddle Answer
+        </button>
+      </section>
+    </main>
+    <footer>
+      <p>Coded by Ramar Bell.</p>
+      <p class="attribution">
+        Code challenge by
+        <a href="https://www.twitter.com/zg_dev" target="_top">@zg_dev</a>
+      </p>
+    </footer>
+  </body>
+</html>
